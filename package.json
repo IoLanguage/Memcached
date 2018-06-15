@@ -1,0 +1,15 @@
+{
+  "name":         "Memcached",
+  "version":      "0.1",
+  "description":  "Memcached is an Io client library for memcached, based on C libmemcached.",
+  "author":       "Aleksey Yeschenko",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Memcached"],
+  "dependencies": {
+    "libs":     ["memcached"],
+    "headers":  ["libmemcached/memcached.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
